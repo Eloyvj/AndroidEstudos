@@ -16,7 +16,8 @@
         android:layout_marginTop="8dp"
         android:text="@string/orangeButtonLabel"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="addOrange"/>
 
     <Button
         android:id="@+id/mangoButton"
@@ -27,7 +28,8 @@
         android:layout_marginTop="8dp"
         android:text="@string/mangoButtonLabel"
         app:layout_constraintStart_toEndOf="@+id/orangeButton"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="addMango"/>
 
     <Button
         android:id="@+id/appleButton"
@@ -38,7 +40,8 @@
         android:layout_marginTop="8dp"
         android:text="@string/appleButtonLabel"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/orangeButton" />
+        app:layout_constraintTop_toBottomOf="@+id/orangeButton"
+        android:onClick="addApple"/>
 
     <Button
         android:id="@+id/pineapleButton"
@@ -49,7 +52,8 @@
         android:layout_marginTop="8dp"
         android:text="@string/pineapleButtonLabel"
         app:layout_constraintStart_toEndOf="@+id/appleButton"
-        app:layout_constraintTop_toBottomOf="@+id/mangoButton" />
+        app:layout_constraintTop_toBottomOf="@+id/mangoButton"
+        android:onClick="addPineaple"/>
 
     <Button
         android:id="@+id/riceButton"
@@ -60,7 +64,8 @@
         android:layout_marginTop="8dp"
         android:text="@string/riceButtonLabel"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/appleButton" />
+        app:layout_constraintTop_toBottomOf="@+id/appleButton"
+        android:onClick="addRice"/>
 
     <Button
         android:id="@+id/bananaButton"
@@ -71,7 +76,8 @@
         android:layout_marginTop="8dp"
         android:text="@string/bananaButtonLabel"
         app:layout_constraintStart_toEndOf="@+id/riceButton"
-        app:layout_constraintTop_toBottomOf="@+id/pineapleButton" />
+        app:layout_constraintTop_toBottomOf="@+id/pineapleButton"
+        android:onClick="addBanana"/>
 
     <Button
         android:id="@+id/tomatoButton"
@@ -82,7 +88,8 @@
         android:layout_marginTop="8dp"
         android:text="@string/tomatoButtonLabel"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/riceButton" />
+        app:layout_constraintTop_toBottomOf="@+id/riceButton"
+        android:onClick="addTomato"/>
 
     <Button
         android:id="@+id/potatoButton"
@@ -93,7 +100,8 @@
         android:layout_marginTop="8dp"
         android:text="@string/potatoButtonLabel"
         app:layout_constraintStart_toEndOf="@+id/tomatoButton"
-        app:layout_constraintTop_toBottomOf="@+id/bananaButton" />
+        app:layout_constraintTop_toBottomOf="@+id/bananaButton"
+        android:onClick="addPotato"/>
 
     <Button
         android:id="@+id/beanButton"
@@ -104,7 +112,8 @@
         android:layout_marginTop="8dp"
         android:text="@string/beanButtonLabel"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tomatoButton" />
+        app:layout_constraintTop_toBottomOf="@+id/tomatoButton"
+        android:onClick="addBean"/>
 
     <Button
         android:id="@+id/cheeseButton"
@@ -115,6 +124,7 @@
         android:layout_marginTop="8dp"
         android:text="@string/cheeseButtonLabel"
         app:layout_constraintStart_toEndOf="@+id/beanButton"
-        app:layout_constraintTop_toBottomOf="@+id/potatoButton" />
+        app:layout_constraintTop_toBottomOf="@+id/potatoButton"
+        android:onClick="addCheese"/>
 
 </android.support.constraint.ConstraintLayout>
