@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Challenge023</string>
+    <string name="mainTitle">Shopping List</string>
+    <string name="add_item">Add Item</string>
+    <string name="orangeButtonLabel">Orange</string>
+    <string name="mangoButtonLabel">Mango</string>
+    <string name="appleButtonLabel">Apple</string>
+    <string name="pineapleButtonLabel">Pineaple</string>
+    <string name="riceButtonLabel">Rice</string>
+    <string name="bananaButtonLabel">Banana</string>
+    <string name="tomatoButtonLabel">Tomato</string>
+    <string name="potatoButtonLabel">Potato</string>
+    <string name="beanButtonLabel">Bean</string>
+    <string name="cheeseButtonLabel">Cheese</string>
+    <string name="activity2_name">Products List</string>
+</resources>

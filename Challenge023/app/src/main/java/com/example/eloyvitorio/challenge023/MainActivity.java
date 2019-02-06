@@ -1,16 +1,17 @@
-package com.example.eloyvitorio.challenge022;
+package com.example.eloyvitorio.challenge023;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
-
-import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String EXTRA_MESSAGE = "com.example.eloyvitorio.challenge022.extra.MESSAGE";
+    public static final String EXTRA_MESSAGE = "com.example.eloyvitorio.challenge023.extra.MESSAGE";
     public static final int TEXT_REQUEST = 1;
     private TextView textView1;
     private TextView textView2;
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView textView8;
     private TextView textView9;
     private TextView textView10;
+    private EditText edittextLocation;
 
 
     @Override
@@ -38,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         textView8 = findViewById(R.id.textViewItem8);
         textView9 = findViewById(R.id.textViewItem9);
         textView10 = findViewById(R.id.textViewItem10);
+        edittextLocation = findViewById(R.id.location_edittext);
 
         if (savedInstanceState != null) {
             boolean text1isVisible = savedInstanceState.getBoolean("reply_visible_1");
@@ -176,5 +179,23 @@ public class MainActivity extends AppCompatActivity {
             outState.putBoolean("reply_visible_10", true);
             outState.putString("reply_text_10", textView10.getText().toString());
         }
+    }
+
+    public void openlocation(View view) {
+        // Get the string indicating a location. Input is not validated; it is
+        // passed to the location handler intact
+        String loc = edittextLocation.getText().toString();
+
+        // Parse de location and create the intent
+        Uri addressUri = Uri.parse("geo:0,0?q=" + loc);
+        Intent intent = new Intent(Intent.ACTION_VIEW, addressUri);
+
+        // Find an activity to handle the intent, and start that activity
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        } else {
+            Log.d("ImplicitIntents", "Can`t handle this intent.");
+        }
+
     }
 }
