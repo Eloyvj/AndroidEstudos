@@ -23,6 +23,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * SimpleCalc is the initial version of SimpleCalcTest.  It has
@@ -92,6 +93,9 @@ public class MainActivity extends Activity {
     private void compute(Calculator.Operator operator) {
         double operandOne;
         double operandTwo;
+
+        checkNullOperators();
+
         try {
             operandOne = getOperand(mOperandOneEditText);
             operandTwo = getOperand(mOperandTwoEditText);
@@ -139,5 +143,46 @@ public class MainActivity extends Activity {
      */
     private static String getOperandText(EditText operandEditText) {
         return operandEditText.getText().toString();
+    }
+
+    /**
+     * Check if there`re null operators
+     */
+    private void checkNullOperators() {
+        if (getOperandText(mOperandOneEditText).isEmpty()) {
+            showOperatorsValidationToast();
+            clearOperatorField(mOperandTwoEditText);
+            clearResultField(mResultTextView);
+            return;
+        } else if (getOperandText(mOperandTwoEditText).isEmpty()) {
+            showOperatorsValidationToast();
+            clearOperatorField(mOperandOneEditText);
+            clearResultField(mResultTextView);
+            return;
+        }
+    }
+
+    /**
+     * Show null operators message
+     */
+    private void showOperatorsValidationToast() {
+        Toast toast = Toast.makeText(this, R.string.toast_message, Toast.LENGTH_SHORT);
+        toast.show();
+    }
+
+    /**
+     * Clear operator field
+     * @param operandEditText
+     */
+    private void clearOperatorField(EditText operandEditText) {
+        operandEditText.setText("");
+    }
+
+    /**
+     * Clear compute result field
+     * @param mResultTextView
+     */
+    private void clearResultField(TextView mResultTextView) {
+        mResultTextView.setText("");
     }
 }

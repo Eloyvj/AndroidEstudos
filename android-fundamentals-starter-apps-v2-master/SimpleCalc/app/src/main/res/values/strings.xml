@@ -39,5 +39,6 @@
 
     <!-- Message for textview in case of errors  -->
     <string name="computationError">Error</string>
+    <string name="toast_message">Informe os dois operandos!</string>
 
 </resources>
