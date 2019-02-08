@@ -94,7 +94,9 @@ public class MainActivity extends Activity {
         double operandOne;
         double operandTwo;
 
-        checkNullOperators();
+        if (checkNullOperators()) {
+            return;
+        }
 
         try {
             operandOne = getOperand(mOperandOneEditText);
@@ -146,20 +148,23 @@ public class MainActivity extends Activity {
     }
 
     /**
-     * Check if there`re null operators
+     *
+     * @return boolean to show if there is any null operator
      */
-    private void checkNullOperators() {
+    private boolean checkNullOperators() {
+        boolean hasAnyNullOperator = false;
         if (getOperandText(mOperandOneEditText).isEmpty()) {
             showOperatorsValidationToast();
             clearOperatorField(mOperandTwoEditText);
             clearResultField(mResultTextView);
-            return;
+            hasAnyNullOperator = true;
         } else if (getOperandText(mOperandTwoEditText).isEmpty()) {
             showOperatorsValidationToast();
             clearOperatorField(mOperandOneEditText);
             clearResultField(mResultTextView);
-            return;
+            hasAnyNullOperator = true;
         }
+        return hasAnyNullOperator;
     }
 
     /**
