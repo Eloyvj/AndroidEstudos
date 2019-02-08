@@ -25,6 +25,7 @@ import org.junit.runners.JUnit4;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.number.IsCloseTo.closeTo;
 import static org.junit.Assert.assertThat;
 
 /**
@@ -53,6 +54,60 @@ public class CalculatorTest {
         assertThat(resultAdd, is(equalTo(2d)));
     }
 
+    @Test
+    public void addTwoNumbersNetative() {
+        double resultAdd = mCalculator.add(-1d, 2d);
+        assertThat(resultAdd, is(equalTo(1d)));
+    }
 
+    @Test
+    public void addTwoNumbersFloats() {
+        double resultAdd = mCalculator.add(1.111f, 1.111d);
+        assertThat(resultAdd, is(closeTo(2.222, 0.01)));
+    }
+
+    /**
+     * Test for simple sub
+     */
+    @Test
+    public void subTwoNumbers() {
+        double resultSub = mCalculator.sub(4d, 3d);
+        assertThat(resultSub, is(equalTo(1d)));
+    }
+
+    @Test
+    public void subWorksWithNegativeResults() {
+        double resultSub = mCalculator.sub(-8d, -3d);
+        assertThat(resultSub, is(equalTo(-5d)));
+    }
+
+    /**
+     * Test for simple mul
+     */
+    @Test
+    public void mulTwoNumbers() {
+        double resultMul = mCalculator.mul(4d, 3d);
+        assertThat(resultMul, is(equalTo(12d)));
+    }
+
+    @Test
+    public void mulTwoNumbersZero() {
+        double resultMul = mCalculator.mul(0d, 3d);
+        assertThat(resultMul, is(equalTo(0d)));
+    }
+
+    /**
+     * Test for simple div
+     */
+    @Test
+    public void divTwoNumbers() {
+        double resultDiv = mCalculator.div(15d, 3d);
+        assertThat(resultDiv, is(equalTo(5d)));
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void divByZeroThrows() {
+        double resultadiv = mCalculator.div(30d, 5d);
+    }
 
 }
