@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Picker For Time</string>
+    <string name="textview_message">Hello World! Choose a time:</string>
+    <string name="button_time_text">Time</string>
+    <string name="timePicker">timePicker</string>
+    <string name="time_description">Time:</string>
+</resources>
