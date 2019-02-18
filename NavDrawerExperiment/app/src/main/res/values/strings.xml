@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Nav Drawer Experiment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="camera_message">Camera option selected!</string>
+    <string name="gallery_message">Gallery option selected!</string>
+    <string name="slideshow_message">Slideshow option selected!</string>
+    <string name="tools_message">Tools option selected!</string>
+    <string name="share_message">Share option selected!</string>
+    <string name="send_message">Send option selected!</string>
+</resources>
