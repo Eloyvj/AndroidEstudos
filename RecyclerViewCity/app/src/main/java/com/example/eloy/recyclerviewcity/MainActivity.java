@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         list.add(new City("Cinque Terre", "The coastline, the five villages in Italy.", "http:/bit.ly/CBImageCinque"));
         list.add(new City("Paris", "Paris is the capital city of France.", "http:/bit.ly/CBImageParis"));
         list.add(new City("Rio de Janeiro", "Rio was been one of Brazil's most popular destinations.", "http:/bit.ly/CBImageRio"));
-        list.add(new City("Sydney", "Sydney is the state capital of New South Wales.", "http:/bit.ly/CBImageSydney"));
+        list.add(new City("Sydney", "Sydney is the state capital of New South Wales.", "http:/bit.ly/CBImageRio"));
 
         return list;
     }
