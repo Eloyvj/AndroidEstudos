@@ -18,6 +18,7 @@ package com.example.android.materialme;
 
 import android.content.res.TypedArray;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -92,6 +93,11 @@ public class MainActivity extends AppCompatActivity {
 
         // Add my RecyclerView to helper object
         helper.attachToRecyclerView(mRecyclerView);
+
+        // Restore the Recycler View state
+        if (savedInstanceState != null) {
+            // TO-DO
+        }
     }
 
     /**
@@ -126,8 +132,22 @@ public class MainActivity extends AppCompatActivity {
         mAdapter.notifyDataSetChanged();
     }
 
+    /**
+     *  Calls again the initializeData to restore the initial state of mSportsDataArray
+     * @param view
+     */
     public void resetSports(View view) {
         // Call initializeData method for reset the cardViews list
         initializeData();
+    }
+
+    /**
+     * Saves the state of Recycler View if the phone orientation has been change
+     * @param outState
+     */
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        // TO-DO
     }
 }
