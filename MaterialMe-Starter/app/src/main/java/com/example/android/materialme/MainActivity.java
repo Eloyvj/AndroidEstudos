@@ -105,6 +105,8 @@ public class MainActivity extends AppCompatActivity {
                 .getStringArray(R.array.sports_info);
         TypedArray sportsImageResources =
                 getResources().obtainTypedArray(R.array.sports_images);
+        String[] sportsNews = getResources()
+                .getStringArray(R.array.sports_news);
 
         // Clear the existing data (to avoid duplication).
         mSportsData.clear();
@@ -113,7 +115,8 @@ public class MainActivity extends AppCompatActivity {
         // information about each sport.
         for(int i=0;i<sportsList.length;i++){
             mSportsData.add(new Sport(sportsList[i],sportsInfo[i],
-                    sportsImageResources.getResourceId(i,0)));
+                    sportsImageResources.getResourceId(i,0),
+                    sportsNews[i]));
         }
 
         // Clean up the sportsImageArray once time that has been create the mSportsData
