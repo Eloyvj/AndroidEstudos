@@ -27,6 +27,7 @@ import android.view.View;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 /***
  * Main Activity for the Material Me app, a mock sports news application
@@ -38,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView mRecyclerView;
     private ArrayList<Sport> mSportsData;
     private SportsAdapter mAdapter;
+
+    private final String SAVED_LAYOUT_MANAGER = "recycler_state";
+    private Parcelable layoutManagerSavedState;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -96,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Restore the Recycler View state
         if (savedInstanceState != null) {
-            // TO-DO
+            setItems(mSportsData);
         }
     }
 
@@ -119,9 +123,9 @@ public class MainActivity extends AppCompatActivity {
 
         // Create the ArrayList of Sports objects with titles and
         // information about each sport.
-        for(int i=0;i<sportsList.length;i++){
-            mSportsData.add(new Sport(sportsList[i],sportsInfo[i],
-                    sportsImageResources.getResourceId(i,0),
+        for (int i = 0; i < sportsList.length; i++) {
+            mSportsData.add(new Sport(sportsList[i], sportsInfo[i],
+                    sportsImageResources.getResourceId(i, 0),
                     sportsNews[i]));
         }
 
@@ -133,7 +137,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     *  Calls again the initializeData to restore the initial state of mSportsDataArray
+     * Calls again the initializeData to restore the initial state of mSportsDataArray
+     *
      * @param view
      */
     public void resetSports(View view) {
@@ -142,12 +147,30 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Saves the state of Recycler View if the phone orientation has been change
+     * Save the current state of RecyclerView
      * @param outState
      */
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        // TO-DO
+        outState.putParcelable(SAVED_LAYOUT_MANAGER, mRecyclerView.getLayoutManager().onSaveInstanceState());
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle state) {
+        layoutManagerSavedState = state.getParcelable(SAVED_LAYOUT_MANAGER);
+        super.onRestoreInstanceState(state);
+
+    }
+
+    public void setItems (ArrayList<Sport> objects) {
+        mAdapter = new SportsAdapter(this, objects);
+        restoreLayoutManagerPosition();
+    }
+
+    private void restoreLayoutManagerPosition() {
+        if (layoutManagerSavedState != null) {
+            mRecyclerView.getLayoutManager().onRestoreInstanceState(layoutManagerSavedState);
+        }
     }
 }
