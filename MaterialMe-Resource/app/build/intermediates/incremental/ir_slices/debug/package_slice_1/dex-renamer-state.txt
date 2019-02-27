@@ -1,4 +1,0 @@
-#Mon Feb 25 17:38:41 BRT 2019
-base.0=/Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/build/intermediates/transforms/dexMerger/debug/1
-path.0=classes.dex
-renamed.0=classes.dex
