@@ -1,25 +1,14 @@
-/*
- * Copyright (C) 2018 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 package com.example.android.materialme;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+
+import java.io.Serializable;
 
 /**
  * Data model for each row of the RecyclerView
  */
-class Sport {
+class Sport implements Parcelable {
 
     // Member variables representing the title and information about the sport.
     private String title;
@@ -32,6 +21,8 @@ class Sport {
      *
      * @param title The name if the sport.
      * @param info Information about the sport.
+     * @param imageResource Sport image.
+     * @param subtitleNews News about the sport.
      */
     Sport(String title, String info, int imageResource, String subtitleNews) {
         this.title = title;
@@ -76,4 +67,37 @@ class Sport {
     public String getSubtitleNews() {
         return subtitleNews;
     }
+
+    protected Sport(Parcel in) {
+        title = in.readString();
+        info = in.readString();
+        imageResource = in.readInt();
+        subtitleNews = in.readString();
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeString(title);
+        dest.writeString(info);
+        dest.writeInt(imageResource);
+        dest.writeString(subtitleNews);
+    }
+
+    @SuppressWarnings("unused")
+    public static final Parcelable.Creator<Sport> CREATOR = new Parcelable.Creator<Sport>() {
+        @Override
+        public Sport createFromParcel(Parcel in) {
+            return new Sport(in);
+        }
+
+        @Override
+        public Sport[] newArray(int size) {
+            return new Sport[size];
+        }
+    };
 }

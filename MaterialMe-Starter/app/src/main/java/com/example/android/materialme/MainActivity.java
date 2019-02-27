@@ -61,8 +61,19 @@ public class MainActivity extends AppCompatActivity {
         mAdapter = new SportsAdapter(this, mSportsData);
         mRecyclerView.setAdapter(mAdapter);
 
-        // Get the data.
-        initializeData();
+        // Restore the Recycler View state
+        if (savedInstanceState != null) {
+            ArrayList<Sport> data = savedInstanceState.getParcelableArrayList("SAVED_LIST");
+            mSportsData.clear();
+            mSportsData.addAll(data);
+            mAdapter.notifyDataSetChanged();
+            restoreLayoutManagerPosition();
+            //setItems(mSportsData);
+        }
+        else {
+            // Get the data.
+            initializeData();
+        }
 
         // Implements swipe and drag/drop actions in the cards
         ItemTouchHelper helper = new ItemTouchHelper(new ItemTouchHelper
@@ -97,11 +108,6 @@ public class MainActivity extends AppCompatActivity {
 
         // Add my RecyclerView to helper object
         helper.attachToRecyclerView(mRecyclerView);
-
-        // Restore the Recycler View state
-        if (savedInstanceState != null) {
-            setItems(mSportsData);
-        }
     }
 
     /**
@@ -154,6 +160,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
         outState.putParcelable(SAVED_LAYOUT_MANAGER, mRecyclerView.getLayoutManager().onSaveInstanceState());
+        outState.putParcelableArrayList("SAVED_LIST", mSportsData);
     }
 
     @Override
@@ -161,11 +168,6 @@ public class MainActivity extends AppCompatActivity {
         layoutManagerSavedState = state.getParcelable(SAVED_LAYOUT_MANAGER);
         super.onRestoreInstanceState(state);
 
-    }
-
-    public void setItems (ArrayList<Sport> objects) {
-        mAdapter = new SportsAdapter(this, objects);
-        restoreLayoutManagerPosition();
     }
 
     private void restoreLayoutManagerPosition() {
