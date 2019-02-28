@@ -20,6 +20,7 @@ import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
@@ -39,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
     private ArrayList<Sport> mSportsData;
     private SportsAdapter mAdapter;
 
+    // Members variables for save the layout manager and arrayList of Sports
+    // state
     private final String SAVED_LAYOUT_MANAGER = "recycler_state";
     private Parcelable layoutManagerSavedState;
 
@@ -47,11 +50,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Member variable for get the integer from the integers.xml resource file
+        int gridColumnCount = getResources().getInteger(R.integer.grid_column_count);
+
         // Initialize the RecyclerView.
         mRecyclerView = findViewById(R.id.recyclerView);
 
         // Set the Layout Manager.
-        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+        mRecyclerView.setLayoutManager(new GridLayoutManager(this, gridColumnCount));
 
         // Initialize the ArrayList that will contain the data.
         mSportsData = new ArrayList<>();
@@ -74,11 +80,18 @@ public class MainActivity extends AppCompatActivity {
             initializeData();
         }
 
+        // Disable swipe action if there is more than one column in the grid
+        int swipeDirs;
+        if(gridColumnCount > 1) {
+            swipeDirs = 0;
+        } else {
+            swipeDirs = ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT;
+        }
+
         // Implements swipe and drag/drop actions in the cards
         ItemTouchHelper helper = new ItemTouchHelper(new ItemTouchHelper
                 .SimpleCallback(ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT |
-                ItemTouchHelper.DOWN | ItemTouchHelper.UP, ItemTouchHelper.LEFT |
-                ItemTouchHelper.RIGHT) {
+                ItemTouchHelper.DOWN | ItemTouchHelper.UP, swipeDirs) {
             @Override
             public boolean onMove(RecyclerView recyclerView,
                                   RecyclerView.ViewHolder viewHolder,
