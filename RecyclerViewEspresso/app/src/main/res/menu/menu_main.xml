@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.eloyvitorio.recyclerviewespresso.MainActivity">
+    <item
+        android:id="@+id/action_resetList"
+        android:icon="@drawable/ic_reset_list"
+        android:orderInCategory="10"
+        android:title="@string/action_resetList"
+        app:showAsAction="always" />
+</menu>
