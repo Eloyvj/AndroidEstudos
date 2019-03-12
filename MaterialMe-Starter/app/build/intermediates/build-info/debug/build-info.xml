@@ -2,84 +2,110 @@
 <instant-run
     abi="x86"
     api-level="27"
-    build-mode="COLD"
-    density="420dpi"
+    build-mode="FULL"
+    density="xxhdpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
     plugin-version="3.1.4"
-    timestamp="1551277000678"
-    token="-4368324312057171023"
-    verifier="COLD_SWAP_REQUESTED" >
+    timestamp="1551310422689"
+    token="1225103359168168844"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="218" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="51" />
+        duration="116" />
     <task
         name="verifier"
-        duration="12" />
+        duration="29" />
 
     <artifact
-        location="/Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        location="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
         type="SPLIT" />
+    <artifact
+        location="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1551275037945"
+        timestamp="1551310422689"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+            location="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            location="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1551277000678"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
     </build>
 
 </instant-run>

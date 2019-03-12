@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml",
+            "outputFile": "/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml",
             "map": [
                 {
-                    "source": "/Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/a48a403df4044d6fac39115686f7d5ea/res/values-zh-rHK/values-zh-rHK.xml",
+                    "source": "/home/eloy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6fcd06f5b1d48ac7d1961df2e46baa45/res/values-zh-rHK/values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,200,293,393,475,572,680,756,832,910,1006,1102,1197,1294,1389,1487,1638,1732",
+                        "endColumns": "94,92,99,81,96,107,75,75,77,95,95,94,96,94,97,150,93,77",
+                        "endOffsets": "195,288,388,470,567,675,751,827,905,1001,1097,1192,1289,1384,1482,1633,1727,1805"
+                    }
+                },
+                {
+                    "source": "/home/eloy/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/fa5cb112714906d60e95c8e08b0489d2/res/values-zh-rHK/values-zh-rHK.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -18,16 +28,6 @@
                         "startOffsets": "1810",
                         "endColumns": "101",
                         "endOffsets": "1907"
-                    }
-                },
-                {
-                    "source": "/Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c51d6332c6edc4ffc64eaeaa0c0508ab/res/values-zh-rHK/values-zh-rHK.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,200,293,393,475,572,680,756,832,910,1006,1102,1197,1294,1389,1487,1638,1732",
-                        "endColumns": "94,92,99,81,96,107,75,75,77,95,95,94,96,94,97,150,93,77",
-                        "endOffsets": "195,288,388,470,567,675,751,827,905,1001,1097,1192,1289,1384,1482,1633,1727,1805"
                     }
                 }
             ]

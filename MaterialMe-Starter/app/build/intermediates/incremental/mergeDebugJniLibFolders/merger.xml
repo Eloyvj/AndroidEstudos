@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/debug/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/debug/jniLibs"/></dataSet></merger>

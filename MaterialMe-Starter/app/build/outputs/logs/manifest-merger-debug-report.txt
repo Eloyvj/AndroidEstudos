@@ -1,123 +1,123 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml:16:1-35:12
-INJECTED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml:16:1-35:12
-INJECTED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml:16:1-35:12
-INJECTED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml:16:1-35:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/3738aef6538c1cf2fa5a142a06cc8a33/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:design:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/c86055d8ab96ba884de2f9a84cd5de3f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c51d6332c6edc4ffc64eaeaa0c0508ab/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/e983edba0271b1216fc2ccbcb24af383/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/79aae7ddaecabeb1418c6aee08bae263/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/04b91f89a02043ed761c8d6be1581d61/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/d1a89fcad18b4647fe0256dd2b8336bf/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/1859b75c34c0b8fb151bf930a92154f2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/1e60202bbf2aff744f4a6c4ed0fc2aa2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/46376a4c61b06dfcfaa152643f18d4a7/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/533bfee98a9bf3155b8c9110b9f49b71/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/c87f14dcbda3131157373249455fd75e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/914c90e86fe0f083d12b6d1734699d17/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/a48a403df4044d6fac39115686f7d5ea/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/03c64fddfc14202bda28733ff497060a/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/a4f54e9aa5ed8a7f836a87a46e69ef9c/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d49e55d8c51d3abb5309d24a113e6f78/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/0d359daafc7666eb94c9225d9e68773d/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml:16:1-35:12
-INJECTED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml:16:1-35:12
-INJECTED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml:16:1-35:12
+ADDED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml:16:1-35:12
+INJECTED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml:16:1-35:12
+INJECTED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml:16:1-35:12
+INJECTED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml:16:1-35:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/eloy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/b9af3d403ff1ef03ff7414e447cafd63/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/e7e2c19dc2c4ca12d1c3eb1e28bc7a14/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6fcd06f5b1d48ac7d1961df2e46baa45/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/6833d4298b23e299a1031581dbe09006/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/b4de2e208d978e0173d4847aec329d80/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/776efb878bfba4f1c3c629e35a1c7829/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/3c60f443748026a7f74aa742856da2fe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/79af77a96cef03bc58320b0fdc7b65dc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/656877b3d3a67e03f48259bb8ed051b5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/1bf888586eabd26bcb8bcbd01defabca/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/119e4850f0fee64b78b3dcedaa7f07f6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/7ca25de26731e854f6d6b7cd8b5ee948/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/734f1786f6b6181cc2c1df0dbb2f27bb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/fa5cb112714906d60e95c8e08b0489d2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/eloy/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/6525f061ee0d725f8e6a565d81a65fe2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/eloy/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e8e092ec95ea9e7f1d214e43dd479953/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/eloy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d1cc58e92dd60fcfa742cc74ed11a69c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/eloy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/65b89b54ef81a77e744df30a6f3ef02b/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml:16:1-35:12
+INJECTED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml:16:1-35:12
+INJECTED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml:16:1-35:12
 	package
-		ADDED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml:17:5-45
-		INJECTED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml
+		ADDED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml:17:5-45
+		INJECTED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml
+		INJECTED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml
-		ADDED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml:16:1-35:12
-		INJECTED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml
+		INJECTED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml
+		ADDED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml:16:1-35:12
+		INJECTED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml
-		ADDED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml:16:1-35:12
-		INJECTED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml
+		INJECTED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml
+		ADDED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml:16:1-35:12
+		INJECTED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml:16:11-69
+		ADDED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml:16:11-69
 application
-ADDED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml:19:5-33:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/3738aef6538c1cf2fa5a142a06cc8a33/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/3738aef6538c1cf2fa5a142a06cc8a33/AndroidManifest.xml:9:5-20
+ADDED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml:19:5-33:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/eloy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/b9af3d403ff1ef03ff7414e447cafd63/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/eloy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/b9af3d403ff1ef03ff7414e447cafd63/AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml:23:9-35
+		ADDED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml:23:9-35
 	android:label
-		ADDED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml:22:9-41
+		ADDED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml:22:9-41
 	android:icon
-		ADDED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml:21:9-43
+		ADDED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml:21:9-43
 	android:allowBackup
-		ADDED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml:20:9-35
+		ADDED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml:20:9-35
 	android:theme
-		ADDED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml:24:9-40
+		ADDED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml:24:9-40
 activity#com.example.android.materialme.MainActivity
-ADDED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml:25:9-31:20
+ADDED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml:25:9-31:20
 	android:name
-		ADDED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml:25:19-47
+		ADDED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml:25:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml:26:13-30:29
+ADDED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml:27:17-69
+ADDED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml:27:25-66
+		ADDED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml:29:17-77
+ADDED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml:29:27-74
+		ADDED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml:29:27-74
 activity#com.example.android.materialme.DetailActivity
-ADDED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml:32:9-61
+ADDED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml:32:9-61
 	android:name
-		ADDED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml:32:19-49
+		ADDED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml:32:19-49
 uses-sdk
-INJECTED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml
-INJECTED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/3738aef6538c1cf2fa5a142a06cc8a33/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/3738aef6538c1cf2fa5a142a06cc8a33/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/c86055d8ab96ba884de2f9a84cd5de3f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/c86055d8ab96ba884de2f9a84cd5de3f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c51d6332c6edc4ffc64eaeaa0c0508ab/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c51d6332c6edc4ffc64eaeaa0c0508ab/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/e983edba0271b1216fc2ccbcb24af383/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/e983edba0271b1216fc2ccbcb24af383/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/79aae7ddaecabeb1418c6aee08bae263/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/79aae7ddaecabeb1418c6aee08bae263/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/04b91f89a02043ed761c8d6be1581d61/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/04b91f89a02043ed761c8d6be1581d61/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/d1a89fcad18b4647fe0256dd2b8336bf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/d1a89fcad18b4647fe0256dd2b8336bf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/1859b75c34c0b8fb151bf930a92154f2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/1859b75c34c0b8fb151bf930a92154f2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/1e60202bbf2aff744f4a6c4ed0fc2aa2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/1e60202bbf2aff744f4a6c4ed0fc2aa2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/46376a4c61b06dfcfaa152643f18d4a7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/46376a4c61b06dfcfaa152643f18d4a7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/533bfee98a9bf3155b8c9110b9f49b71/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/533bfee98a9bf3155b8c9110b9f49b71/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/c87f14dcbda3131157373249455fd75e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/c87f14dcbda3131157373249455fd75e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/914c90e86fe0f083d12b6d1734699d17/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/914c90e86fe0f083d12b6d1734699d17/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/a48a403df4044d6fac39115686f7d5ea/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/a48a403df4044d6fac39115686f7d5ea/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/03c64fddfc14202bda28733ff497060a/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/03c64fddfc14202bda28733ff497060a/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/a4f54e9aa5ed8a7f836a87a46e69ef9c/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/a4f54e9aa5ed8a7f836a87a46e69ef9c/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d49e55d8c51d3abb5309d24a113e6f78/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d49e55d8c51d3abb5309d24a113e6f78/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/0d359daafc7666eb94c9225d9e68773d/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/0d359daafc7666eb94c9225d9e68773d/AndroidManifest.xml:20:5-44
-INJECTED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml
-INJECTED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml
+INJECTED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml
+INJECTED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/eloy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/b9af3d403ff1ef03ff7414e447cafd63/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/eloy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/b9af3d403ff1ef03ff7414e447cafd63/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/e7e2c19dc2c4ca12d1c3eb1e28bc7a14/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/e7e2c19dc2c4ca12d1c3eb1e28bc7a14/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6fcd06f5b1d48ac7d1961df2e46baa45/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6fcd06f5b1d48ac7d1961df2e46baa45/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/6833d4298b23e299a1031581dbe09006/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/6833d4298b23e299a1031581dbe09006/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/b4de2e208d978e0173d4847aec329d80/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/b4de2e208d978e0173d4847aec329d80/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/776efb878bfba4f1c3c629e35a1c7829/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/776efb878bfba4f1c3c629e35a1c7829/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/3c60f443748026a7f74aa742856da2fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/3c60f443748026a7f74aa742856da2fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/79af77a96cef03bc58320b0fdc7b65dc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/79af77a96cef03bc58320b0fdc7b65dc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/656877b3d3a67e03f48259bb8ed051b5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/656877b3d3a67e03f48259bb8ed051b5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/1bf888586eabd26bcb8bcbd01defabca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/1bf888586eabd26bcb8bcbd01defabca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/119e4850f0fee64b78b3dcedaa7f07f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/119e4850f0fee64b78b3dcedaa7f07f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/7ca25de26731e854f6d6b7cd8b5ee948/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/7ca25de26731e854f6d6b7cd8b5ee948/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/734f1786f6b6181cc2c1df0dbb2f27bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/734f1786f6b6181cc2c1df0dbb2f27bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/fa5cb112714906d60e95c8e08b0489d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/eloy/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/fa5cb112714906d60e95c8e08b0489d2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/eloy/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/6525f061ee0d725f8e6a565d81a65fe2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/eloy/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/6525f061ee0d725f8e6a565d81a65fe2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/eloy/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e8e092ec95ea9e7f1d214e43dd479953/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/eloy/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e8e092ec95ea9e7f1d214e43dd479953/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/eloy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d1cc58e92dd60fcfa742cc74ed11a69c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/eloy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d1cc58e92dd60fcfa742cc74ed11a69c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/eloy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/65b89b54ef81a77e744df30a6f3ef02b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/eloy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/65b89b54ef81a77e744df30a6f3ef02b/AndroidManifest.xml:20:5-44
+INJECTED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml
+INJECTED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml
-		ADDED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml
+		INJECTED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml
+		ADDED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml
+		INJECTED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml
-		ADDED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMe-Starter/app/src/main/AndroidManifest.xml
+		INJECTED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml
+		ADDED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml
+		INJECTED from /home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/AndroidManifest.xml

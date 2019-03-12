@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/eloy.vitorio/Documents/AndroidFundamentals2/MaterialMeAdaptativeLayout/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMeAdaptativeLayout/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/c86055d8ab96ba884de2f9a84cd5de3f/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/home/eloy/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/e7e2c19dc2c4ca12d1c3eb1e28bc7a14/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -14,22 +14,58 @@
                         "endOffsets": "110,180,251,323,381,439,545,609,672,854"
                     },
                     "to": {
-                        "startLines": "10,11,12,13,14,15,16,17,18,19",
+                        "startLines": "10,11,12,13,14,15,16,17,18,31",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "611,671,741,812,884,942,1000,1106,1170,1233",
-                        "endLines": "10,11,12,13,14,15,16,17,18,22",
+                        "startOffsets": "611,671,741,812,884,942,1000,1106,1170,1922",
+                        "endLines": "10,11,12,13,14,15,16,17,18,34",
                         "endColumns": "59,69,70,71,57,57,105,63,62,12",
-                        "endOffsets": "666,736,807,879,937,995,1101,1165,1228,1410"
+                        "endOffsets": "666,736,807,879,937,995,1101,1165,1228,2099"
                     }
                 },
                 {
-                    "source": "/Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c51d6332c6edc4ffc64eaeaa0c0508ab/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/home/eloy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6fcd06f5b1d48ac7d1961df2e46baa45/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
                         "startOffsets": "55,124,193,263,337,413,472,543",
                         "endColumns": "68,68,69,73,75,58,70,67",
                         "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                },
+                {
+                    "source": "/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMeAdaptativeLayout/app/src/main/res/values-sw600dp/styles.xml",
+                    "from": {
+                        "startLines": "3,9,13,10",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "92,411,650,491",
+                        "endLines": "8,9,13,12",
+                        "endColumns": "12,79,80,12",
+                        "endOffsets": "406,486,726,645"
+                    },
+                    "to": {
+                        "startLines": "20,26,27,28",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1283,1602,1682,1763",
+                        "endLines": "25,26,27,30",
+                        "endColumns": "12,79,80,12",
+                        "endOffsets": "1597,1677,1758,1917"
+                    }
+                },
+                {
+                    "source": "/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMeAdaptativeLayout/app/src/main/res/values-sw600dp/integers.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "49",
+                        "endOffsets": "100"
+                    },
+                    "to": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "1233",
+                        "endColumns": "49",
+                        "endOffsets": "1278"
                     }
                 }
             ]
