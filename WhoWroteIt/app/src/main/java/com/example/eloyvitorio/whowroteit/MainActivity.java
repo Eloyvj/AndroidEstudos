@@ -25,5 +25,7 @@ public class MainActivity extends AppCompatActivity {
     public void searchBooks(View view) {
         // Get the search string from the input field
         String queryString = mBookInput.getText().toString();
+
+        new FetchBook(mTitleText, mAuthorText).execute(queryString);
     }
 }
