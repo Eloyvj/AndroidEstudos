@@ -1,0 +1,4 @@
+#Mon Mar 25 11:19:47 BRT 2019
+base.0=/Users/eloy.vitorio/Documents/AndroidFundamentals2/AndroidEstudos/HelloSharedPrefs/app/build/intermediates/transforms/dexMerger/debug/8
+path.0=classes.dex
+renamed.0=classes.dex
