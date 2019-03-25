@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NotifyMe</string>
+    <string name="main_screen_notify_me">Notify Me!</string>
+    <string name="main_screen_notification_channel_name">Mascot Notification</string>
+    <string name="main_screen_notification_channel_description">Notification from Mascot</string>
+    <string name="main_screen_notification_builder_title">You\'ve been notified!</string>
+    <string name="main_screen_notification_builder_text">This is your notifications text.</string>
+</resources>
