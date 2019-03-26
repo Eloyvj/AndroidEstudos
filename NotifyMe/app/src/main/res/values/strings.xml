@@ -5,4 +5,8 @@
     <string name="main_screen_notification_channel_description">Notification from Mascot</string>
     <string name="main_screen_notification_builder_title">You\'ve been notified!</string>
     <string name="main_screen_notification_builder_text">This is your notifications text.</string>
+    <string name="main_screen_update_me">Update Me!</string>
+    <string name="main_screen_cancel_me">Cancel Me!</string>
+    <string name="main_screen_update_notification_msg">Notification Updated!</string>
+    <string name="main_screen_notification_action_title">Update Notification</string>
 </resources>

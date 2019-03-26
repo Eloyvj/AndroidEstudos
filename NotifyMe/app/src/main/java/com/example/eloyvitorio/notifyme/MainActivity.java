@@ -3,7 +3,12 @@ package com.example.eloyvitorio.notifyme;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.os.Build;
 import android.support.v4.app.NotificationCompat;
@@ -14,10 +19,21 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button button_notify;
-    private NotificationManager mNotifyManager;
+    // Constants for the notification actions buttons.
+    private static final String ACTION_UPDATE_NOTIFICATION =
+            "com.example.eloyvitorio.notifyme.ACTION_UPDATE_NOTIFICATION";
+    // Notification channel ID.
     private static final String PRIMARY_CHANNEL_ID = "primary_notification_channel";
+    // Notification ID.
     private static final int NOTIFICATION_ID = 0;
+
+    private Button button_notify;
+    private Button button_cancel;
+    private Button button_update;
+
+    private NotificationManager mNotifyManager;
+
+    private NotificationReceiver mReceiver = new NotificationReceiver();
 
 
     @Override
@@ -25,22 +41,58 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Create the notification channel.
+        createNotificationChannel();
+
+        // Register the broadcast receiver to receive the update action from
+        // the notification.
+        registerReceiver(mReceiver, new IntentFilter(ACTION_UPDATE_NOTIFICATION));
+
+        // Add onClick handlers to all the buttons.
         button_notify = findViewById(R.id.notify);
         button_notify.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // Send notification
                 sendNotification();
             }
         });
 
-        createNotificationChannel();
+        button_update = findViewById(R.id.update);
+        button_update.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Update the notification
+                updateNotification();
+            }
+        });
+
+        button_cancel = findViewById(R.id.cancel);
+        button_cancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Cancel the notification
+                cancelNotification();
+            }
+        });
+
+        // Reset the button states. Enable only Notify button and disable
+        // update and cancel buttons
+        setNotificationButtonState(true, false, false);
     }
 
-    public void sendNotification() {
-        NotificationCompat.Builder notifyBuilder = getNotificationBuilder();
-        mNotifyManager.notify(NOTIFICATION_ID, notifyBuilder.build());
+    /**
+     * Unregisters the receiver when the app is being destroyed
+     */
+    @Override
+    protected void onDestroy() {
+        unregisterReceiver(mReceiver);
+        super.onDestroy();
     }
 
+    /**
+     * Creates a Notification channel, for OREO and higher.
+     */
     public void createNotificationChannel() {
         mNotifyManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
@@ -57,6 +109,29 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * OnClick method for the "Notify Me!" button.
+     * Creates and delivers a simple notification.
+     */
+    public void sendNotification() {
+        Intent updateIntent = new Intent(ACTION_UPDATE_NOTIFICATION);
+        PendingIntent updatePendingIntent = PendingIntent.getBroadcast
+                (this, NOTIFICATION_ID, updateIntent, PendingIntent.FLAG_ONE_SHOT);
+        NotificationCompat.Builder notifyBuilder = getNotificationBuilder();
+        notifyBuilder.addAction(R.drawable.ic_update,
+                getString(R.string.main_screen_notification_action_title),
+                updatePendingIntent);
+        mNotifyManager.notify(NOTIFICATION_ID, notifyBuilder.build());
+
+        setNotificationButtonState(false, true,
+                true);
+    }
+
+    /**
+     * Helper method that builds the notification.
+     * @return NotificationCompat.Builder: notification build with all the
+     * parameters
+     */
     private NotificationCompat.Builder getNotificationBuilder() {
         Intent notificationIntent = new Intent(this, MainActivity.class);
         PendingIntent notificationPendingIntent = PendingIntent.getActivity(this, NOTIFICATION_ID,
@@ -68,7 +143,70 @@ public class MainActivity extends AppCompatActivity {
                 .setContentText(getString(R.string.main_screen_notification_builder_text))
                 .setSmallIcon(R.drawable.ic_android)
                 .setContentIntent(notificationPendingIntent)
-                .setAutoCancel(true);
+                .setAutoCancel(true)
+                .setPriority(NotificationCompat.PRIORITY_HIGH)
+                .setDefaults(NotificationCompat.DEFAULT_ALL);
         return notifyBuilder;
+    }
+
+    /**
+     * OnClick method for the "Update Me!" button. Updates the existing
+     * notification to show a picture.
+     */
+    public void updateNotification() {
+        Bitmap androidImage = BitmapFactory.decodeResource(getResources(), R.drawable.mascot_1);
+        NotificationCompat.Builder notifyBuilder = getNotificationBuilder();
+        notifyBuilder.setStyle(new NotificationCompat.BigPictureStyle()
+                .bigPicture(androidImage)
+                .setBigContentTitle(getString(R.string.main_screen_update_notification_msg)));
+        mNotifyManager.notify(NOTIFICATION_ID, notifyBuilder.build());
+
+        setNotificationButtonState(false, false,
+                true);
+    }
+
+
+    /**
+     * OnClick method for the "Cancel Me!" button. Cancels the notification.
+     */
+    public void cancelNotification() {
+        mNotifyManager.cancel(NOTIFICATION_ID);
+
+        setNotificationButtonState(true, false,
+                false);
+    }
+
+    /**
+     * Helper method to enable/disable the buttons.
+     * @param isNotifyEnabled
+     * @param isUpdateEnabled
+     * @param isCancelEnabled
+     */
+    public void setNotificationButtonState(boolean isNotifyEnabled,
+                                           boolean isUpdateEnabled,
+                                           boolean isCancelEnabled) {
+        button_notify.setEnabled(isNotifyEnabled);
+        button_update.setEnabled(isUpdateEnabled);
+        button_cancel.setEnabled(isCancelEnabled);
+    }
+
+    /**
+     * The broadcast receiver class for notifications.
+     * Responds to the update notification pending intent action.
+     */
+    public class NotificationReceiver extends BroadcastReceiver {
+
+        public NotificationReceiver() {}
+
+        /**
+         * Receives the incoming broadcasts and responds accordingly.
+         * @param context Context of the app when the broadcast is received.
+         * @param intent The broadcast intent containing the action.
+         */
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            // Update the notification
+            updateNotification();
+        }
     }
 }
