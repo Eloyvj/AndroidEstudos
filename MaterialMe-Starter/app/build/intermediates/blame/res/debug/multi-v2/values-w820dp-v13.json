@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "outputFile": "/Users/eloy.vitorio/Documents/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/res/values-w820dp/dimens.xml",
+                    "source": "/Users/eloy.vitorio/Documents/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/src/main/res/values-w820dp/dimens.xml",
                     "from": {
                         "startLines": "19",
                         "startColumns": "4",

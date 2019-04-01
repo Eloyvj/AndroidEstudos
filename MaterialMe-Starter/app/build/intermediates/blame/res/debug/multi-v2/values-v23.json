@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/Users/eloy.vitorio/Documents/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/home/eloy/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/b4de2e208d978e0173d4847aec329d80/res/values-v23/values-v23.xml",
+                    "source": "/Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/f629db3fe39bfd4a73aef4f84461c51a/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/eloy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6fcd06f5b1d48ac7d1961df2e46baa45/res/values-v23/values-v23.xml",
+                    "source": "/Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/7b3a2b5298f0d99ccbbd4c7ae0fd4f34/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

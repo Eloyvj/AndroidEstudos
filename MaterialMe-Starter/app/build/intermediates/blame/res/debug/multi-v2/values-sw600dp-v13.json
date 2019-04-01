@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/eloy/Documentos/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "/Users/eloy.vitorio/Documents/AndroidFundamentals2/AndroidEstudos/MaterialMe-Starter/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/eloy/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/e7e2c19dc2c4ca12d1c3eb1e28bc7a14/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/4e18073cfa2d518b42dce9c8b18f7b27/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/eloy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6fcd06f5b1d48ac7d1961df2e46baa45/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/eloy.vitorio/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/7b3a2b5298f0d99ccbbd4c7ae0fd4f34/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
